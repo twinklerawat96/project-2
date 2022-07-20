@@ -1,0 +1,9 @@
+.content {
+    float: left;
+    width: 70%;
+  }
+  
+  .display {
+    float: right;
+    width: 30%;
+  }

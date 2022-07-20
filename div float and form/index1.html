@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Form(Viva)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="text-align:center">
+    <h1>Student Details</h1>
+    <form>
+      <div><label for="name">NAME: </label>
+      <input id="name" required/></div><br/>
+      
+      <div><label for="email">EMAIL: </label>
+      <input id="email" required type="email"/></div><br/>
+      
+      <div><label for="rn">ROLL NO: </label>
+      <input id="rn" required/></div><br/>
+      
+      <div><label for="add">ADDRESS: </label>
+      <textarea rows=2 cols=20 required></textarea></div><br/>
+      
+      <div><label for="cn">CONTACT NO: </label>
+      <input id="cn" required pattern=[6789][0-9]{9} /></div><br/>
+      
+      <button >SUBMIT</button>
+    </form>
+  </body>
+</html>
